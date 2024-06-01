@@ -5,8 +5,11 @@ import ContactsForm from "./Component.jsx/ContactsForm";
 
 function App() {
   const [contacts, setContacts] = useState([
-    { name: "Sarah Osu", phone: "0234521380", location: "Kumasi" },
-    { name: "James Daniel", phone: "0567890987", location: "Accra" },
+    { name: "Benjamin Oswusu", phone: "0234534380", location: "Tarkwa" },
+    { name: "Ameyaw Daniel", phone: "0567890987", location: "Accra" },
+    { name: "Juliet Anim", phone: "0247890987", location: " Techiman" },
+    { name: "Robert Calvin", phone: "0277890987", location: "Kumasi" },
+
   ]);
 
   const handleAddContact = (newContact) => {
